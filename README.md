@@ -6,13 +6,13 @@ Accurate assessment of infection severity is critical for clinical decision-maki
 
 ## Architecture
 
-![ ](https://github.com/bouthainas/PGateddCNN-CXR/blob/main/Diagram.png)
+![ ](https://github.com/bouthainas/PGatedCNN-CXR/blob/main/Diagram.png)
 
 The network adopts a parallel multi-branch design built from GatedCNN blocks and attention layers to capture complementary multi-scale representations. Feature fusion modules integrate global and local cues, followed by a regression head for continuous severity prediction.
 
 Segmentation-Based Augmentation Strategy
 
-![ ](https://github.com/bouthainas/PGateddCNN-CXR/blob/main/Augmentation.png)
+![ ](https://github.com/bouthainas/PGatedCNN-CXR/blob/main/Augmentation.png)
 
 We introduce a segmented lung replacement augmentation approach that uses anatomical masks to modify lung regions between samples while preserving global structure. This strategy increases data diversity, mitigates imbalance, and improves robustness to unseen pathologies.
 
@@ -92,4 +92,4 @@ doi={10.1009/TETCI.2024.3359082},
 url={https://doi.org/10.1009/TETCI.2024.3359082}
 }
 ```
-![ ](https://github.com/bouthainas/PGateddCNN-CXR/blob/main/Affiliations.png)
+![ ](https://github.com/bouthainas/PGatedCNN-CXR/blob/main/Affiliations.png)
